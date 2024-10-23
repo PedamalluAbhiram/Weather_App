@@ -8,9 +8,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/weatherinfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Loading weather..."
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
